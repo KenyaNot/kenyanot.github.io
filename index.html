@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Spooktober Stream</title>
+	<link href="css/video-js.min.css" rel="stylesheet">
+	<link href="css/videojs-playlist-ui.css" rel="stylesheet">
+	<link href="css/videojs-playlist-ui.vertical.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+	<div class="info">
+		<h1>Spooktober Stream Deck</h1>
+		<p>Don't Dead, Open Inside</p>
+	</div>
+
+	<div class="player-container">
+		<video
+			id="video"
+			class="video-js"
+			height="720"
+			width="1280"
+			autoplay=true
+			controls>
+		</video>
+
+		<div class="vjs-playlist">
+			<!--
+				The contents of this element will be filled based on the
+				currently loaded playlist
+			-->
+		</div>
+	</div>
+	
+	<div>
+		<label>URL</label>
+		<input type="text" size="25" id="url">
+		<label>Media Type</label>
+		<input type="text" size="25" id="type">
+		<label>Title</label>
+		<input type="text" size="25" id="name">
+		<button type="button" id="submitButton"onclick="
+		addItem(document.getElementById('name').value,
+				document.getElementById('url').value,
+				document.getElementById('type').value);">Add To Queue</button>
+	</div>
+
+	<script src="js/video.min.js"></script>
+	<script src="js/videojs-playlist.min.js"></script>
+	<script src="js/videojs-playlist-ui.min.js"></script>
+	<script src="js/Youtube.min.js"></script>
+	<script src="js/Vimeo.min.js"></script>
+	<script src="js/Dailymotion.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

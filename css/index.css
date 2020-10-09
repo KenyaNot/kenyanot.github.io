@@ -1,0 +1,16 @@
+*{
+  font-family: "Gill Sans", sans-serif;
+  color: #bfbfbf;
+}
+
+body, input, button{
+  background-color:#1c1c1c;
+}
+
+label{
+	font-weight:bold;
+}
+
+.vjs-playlist-item{
+	background-color: white;
+}
