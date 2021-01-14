@@ -20,12 +20,21 @@ player.playlist.autoadvance(0);
 
 
 var motdList = [
-	"Don't Dead, Open Inside",
 	"Don't cry for me, I'm already dead",
 	"Serving up spooks 24/7",
 	"Double dead!",
 	"Get cranking!",
-	"What do you mean I'm just a webpage?"
+	"Only XXXX more days until Halloween",
+	"Faithfully serving Ctarl-Ctarl across the galaxy",
+	"Remember: Licking doorknobs is illegal on other planets",
+	"Roll for initiative!",
+	"We have such sights to show you...",
+	"69, 420, and other such funny numbers",
+	"Removed Herobrine",
+	"FUCK VIACOM",
+	"If I were in charge, dibs would be a bannable offense",
+	"Ekat probably won't like this",
+	"A fang-tastic new streaming utility"
 ];
 
 var getRandom = function(bound){
