@@ -24,7 +24,7 @@ var motdList = [
 	"Serving up spooks 24/7",
 	"Double dead!",
 	"Get cranking!",
-	"Only XXXX more days until Halloween",
+	"Only XXX more days until Halloween",
 	"Faithfully serving Ctarl-Ctarl across the galaxy",
 	"Remember: Licking doorknobs is illegal on other planets",
 	"Roll for initiative!",
@@ -34,7 +34,12 @@ var motdList = [
 	"FUCK VIACOM",
 	"If I were in charge, dibs would be a bannable offense",
 	"Ekat probably won't like this",
-	"A fang-tastic new streaming utility"
+	"A fang-tastic new streaming utility",
+	"I'm in love with an ant!",
+	"Don't lose your way",
+	"Makes your kokoro go doki doki",
+	"This stream brought to you by Raid: Shadow Legends"
+
 ];
 
 var getRandom = function(bound){
