@@ -39,10 +39,25 @@
 		<input type="text" size="25" id="type">
 		<label>Title</label>
 		<input type="text" size="25" id="name">
+
 		<button type="button" id="submitButton" onclick="
 		addItem(document.getElementById('name').value,
-				document.getElementById('url').value,
-				document.getElementById('type').value);">Add To Queue</button>
+			    document.getElementById('url').value,
+			    document.getElementById('type').value);
+		">Add To Queue</button>
+
+		<br><br>
+
+		<label>Google Drive URL</label>
+		<input type="text" size="53" id="driveURL">
+		<label>Title</label>
+		<input type="text" size="25" id="driveTitle">
+
+		<button type="button" id="driveSubmitButton" onclick="
+		addItem(document.getElementById('driveTitle').value,
+				getAPILink(document.getElementById('driveURL').value),
+				'video/mp4');
+		">Add To Queue</button>
 	</div>
 
 	<script src="js/video.min.js"></script>
