@@ -1,9 +1,9 @@
 *{
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #bfbfbf;
 }
 
-body, input, button{
+body, input, button, textarea{
   background-color:#1c1c1c;
 }
 
