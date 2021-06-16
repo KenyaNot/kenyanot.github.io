@@ -42,7 +42,9 @@ var motdList = [
 	"Makes your kokoro go doki doki",
 	"This stream brought to you by Raid: Shadow Legends",
 	"I have named him Peace, in the hope that he will bring it",
-	"Where we're going, we don't need copyright law"];
+	"Where we're going, we don't need copyright law",
+	"It's a dead man's party, who could ask for more?",
+	"We have four jokes, please suggest more"];
 var getRandom = function(bound){return Math.floor(Math.random() * Math.floor(bound));}
 document.getElementById('motd').innerHTML = motdList[getRandom(motdList.length)];
 
@@ -50,6 +52,6 @@ document.getElementById('motd').innerHTML = motdList[getRandom(motdList.length)]
 var getAPILink = function(link){
 	var fragment = link.match(/[-\w]{25,}/);
 	var newLink = "https://www.googleapis.com/drive/v3/files/";
-	newLink = newLink.concat(fragment, "/?key=AIzaSyAebO7daZ4oEQw3XNcO7Jim_9YPAmOb1rI&alt=media");
+	newLink = newLink.concat(fragment, "/?key=AIzaSyB0zTnzIPvSjBUQ9Ayp1kLSF-ia5SJHakQ&alt=media");
 	return newLink;
 }
